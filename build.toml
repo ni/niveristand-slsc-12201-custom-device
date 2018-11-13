@@ -18,3 +18,10 @@ condition = 'lvVersion < 2017'
 name = 'Build SLSC-12201 DIO Custom Device'
 type = 'lvBuildAll'
 project = '{cd}'
+
+[package]
+type = 'nipkg'
+payload_dir = 'Built'
+install_destination = 'documents\\National Instruments\\NI VeriStand {veristand_version}\\SLSC Plugins\\Modules'
+2015_install_destination = 'documents\\National Instruments\\NI VeriStand {veristand_version}\\Custom Devices\\SLSC Plug-ins'
+2016_install_destination = 'documents\\National Instruments\\NI VeriStand {veristand_version}\\Custom Devices\\SLSC Plug-ins'
