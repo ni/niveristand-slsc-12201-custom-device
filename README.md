@@ -4,7 +4,7 @@ The **SLSC-12201 DIO Plugin Custom Device** integrates the SLSC-12201 33 V Digit
 
 ## LabVIEW Version
 
-LabVIEW 2017
+LabVIEW 2015
 
 ## Dependencies
 
