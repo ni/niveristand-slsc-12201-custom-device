@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
-	<Version Major="2015" Minor="1" Fix="0" Build="0" />
+	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
 	<Root Name="12201Test" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
@@ -10,7 +10,7 @@
 				<String>12201Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.10</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -176,1075 +176,1972 @@
 							<Errors />
 						</Section>
 					</Section>
-				</Section>
-				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
-					<Description />
-					<Properties />
-					<Errors />
-					<Section Name="SLSC" TypeGUID="68d6ddc1-274e-40d9-a262-438cd80b3ca1">
+					<Section Name="SLSC" TypeGUID="3ea8ee87-daf4-4abc-a6e6-9c54a9452824">
 						<Description />
-						<Properties>
-							<Property Name="CD Status">
-								<U32>1</U32>
-							</Property>
-							<Property Name="Driver VI Exec Mode">
-								<U32>1</U32>
-							</Property>
-							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI SLSC\Linux_x64\NI SLSC Engine Linux_x64.llb\RT Driver VI.vi">
-									<Version>1.1</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\NI SLSC\NI SLSC Engine Linux_x64.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI SLSC\Pharlap\NI SLSC Engine Pharlap.llb\RT Driver VI.vi">
-									<Version>1.1</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\NI SLSC\NI SLSC Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI SLSC\NI SLSC Engine Windows.llb\RT Driver VI.vi">
-									<Version>1.1</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\NI SLSC\NI SLSC Engine Windows.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Windows</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Version">
-								<String>1.1</String>
-							</Property>
-							<Property Name="user.CD.SLSC Plug-in Names">
-								<StringArray>
-									<Elem>SLSC EDS</Elem>
-									<Elem>SLSC-12201 DIO</Elem>
-									<Elem>Empty</Elem>
-									<Elem>Unsupported Module</Elem>
-								</StringArray>
-							</Property>
-							<Property Name="user.CD.SLSC Plug-in GUIDs">
-								<StringArray>
-									<Elem>8e00a9a9-cfde-4ea5-9266-6ce3d8c7c691</Elem>
-									<Elem>c474772f-1eb5-4c79-98d9-8846819e1c09</Elem>
-									<Elem>168e3b1f-bb45-4207-8830-40e21915deae</Elem>
-									<Elem>c1b61487-99f1-4014-b217-c79310448f6a</Elem>
-								</StringArray>
-							</Property>
-							<Property Name="user.CD.SLSC Plug-in Paths">
-								<StringArray>
-									<Elem>Custom Devices\SLSC Plug-ins\SLSC EDS\SLSC EDS Configuration.llb\Initialization VI.vi</Elem>
-									<Elem>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Configuration.llb\Initialization VI.vi</Elem>
-									<Elem>Custom Devices\NI SLSC\NI SLSC Configuration.llb\Empty Module.vi</Elem>
-									<Elem>Custom Devices\NI SLSC\NI SLSC Configuration.llb\Unknown Module.vi</Elem>
-								</StringArray>
-							</Property>
-						</Properties>
+						<Properties />
 						<Errors />
-						<Section Name="NI SLSC-12001" TypeGUID="245650ba-7530-4e16-bde5-f4dcd94687da">
+						<Section Name="SLSC Chassis" TypeGUID="2d230194-1f79-4241-ad00-e5b0a0d634cb">
 							<Description />
 							<Properties>
-								<Property Name="user.CD.Chassis IP Address">
-									<BinaryString>MTAuMi4xMDQuMTk=</BinaryString>
+								<Property Name="Chassis Type">
+									<String>SLSC-12001</String>
 								</Property>
-								<Property Name="user.CD.Chassis #">
-									<U32>1</U32>
+								<Property Name="Chassis ID">
+									<String>VS-Eco-SLSC-12001</String>
 								</Property>
-								<Property Name="user.CD.SLSC Root CD Version">
-									<BinaryString>MS4wLjA=</BinaryString>
+								<Property Name="Username">
+									<String>anonymous</String>
 								</Property>
-								<Property Name="user.CD.Slot 2.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
+								<Property Name="Password">
+									<String />
 								</Property>
-								<Property Name="user.CD.Slot 3.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 4.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 5.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 6.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 7.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 8.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 9.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 10.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 11.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 12.ModuleName">
-									<BinaryString>RW1wdHk=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Slot 1.ModuleName">
-									<BinaryString>U0xTQy0xMjIwMSBESU8=</BinaryString>
+								<Property Name="Chassis ID Type">
+									<I32>1</I32>
 								</Property>
 							</Properties>
 							<Errors />
-							<Section Name="Slot 2 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
+							<Section Name="Modules" TypeGUID="96319964-d29d-4af0-9c60-b1a785679b5f">
 								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>2</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
+								<Properties />
 								<Errors />
-							</Section>
-							<Section Name="Slot 3 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>3</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 4 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>4</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 5 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>5</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 6 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>6</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 7 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>7</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 8 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>8</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 9 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>9</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 10 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>10</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 11 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>11</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 12 (Empty)" TypeGUID="168e3b1f-bb45-4207-8830-40e21915deae">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Slot #">
-										<I32>12</I32>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>RW1wdHk=</BinaryString>
-									</Property>
-								</Properties>
-								<Errors />
-							</Section>
-							<Section Name="Slot 1 (SLSC-12201 DIO)" TypeGUID="c474772f-1eb5-4c79-98d9-8846819e1c09">
-								<Description />
-								<Properties>
-									<Property Name="CD Status">
-										<U32>1</U32>
-									</Property>
-									<Property Name="Driver VI Exec Mode">
-										<U32>1</U32>
-									</Property>
-									<Property Name="Driver VI Path_0">
-										<DependentFile Type="To Common Doc Dir" Path="Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\Linux_x64\SLSC-12201 DIO Engine Linux64.llb\RT Driver VI.vi">
-											<Version>1.0.3</Version>
-											<ForceDownload>false</ForceDownload>
-											<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Engine Linux64.llb\RT Driver VI.vi</RTDestination>
-											<SupportedTarget>Linux_x64</SupportedTarget>
-											<MD5 />
-										</DependentFile>
-									</Property>
-									<Property Name="Driver VI Path_1">
-										<DependentFile Type="To Common Doc Dir" Path="Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\Linux_32_ARM\SLSC-12201 DIO Engine LinuxARM.llb\RT Driver VI.vi">
-											<Version>1.0.3</Version>
-											<ForceDownload>false</ForceDownload>
-											<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-											<SupportedTarget>Linux_32_ARM</SupportedTarget>
-											<MD5 />
-										</DependentFile>
-									</Property>
-									<Property Name="Driver VI Path_2">
-										<DependentFile Type="To Common Doc Dir" Path="Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\Pharlap\SLSC-12201 DIO Engine Pharlap.llb\RT Driver VI.vi">
-											<Version>1.0.3</Version>
-											<ForceDownload>false</ForceDownload>
-											<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-											<SupportedTarget>PharLap</SupportedTarget>
-											<MD5 />
-										</DependentFile>
-									</Property>
-									<Property Name="Driver VI Path_3">
-										<DependentFile Type="To Common Doc Dir" Path="Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Engine Windows.llb\RT Driver VI.vi">
-											<Version>1.0.3</Version>
-											<ForceDownload>false</ForceDownload>
-											<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Engine Windows.llb\RT Driver VI.vi</RTDestination>
-											<SupportedTarget>Windows</SupportedTarget>
-											<MD5 />
-										</DependentFile>
-									</Property>
-									<Property Name="Version">
-										<String>1.0.3</String>
-									</Property>
-									<Property Name="user.CD.ModuleName">
-										<BinaryString>U0xTQy0xMjIwMSBESU8=</BinaryString>
-									</Property>
-									<Property Name="user.CD.productNum">
-										<I32>4098</I32>
-									</Property>
-									<Property Name="user.CD.vendorNum">
-										<I32>4243</I32>
-									</Property>
-									<Property Name="user.CD.Slot #">
-										<I32>1</I32>
-									</Property>
-									<Property Name="user.CD.Page Configuration Settings">
-										<Variant>
-											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAATRUAgAAAAAABAAQAAAABAAAAAAABAAAADVByb3BlcnR5TmFtZXMVAIAAAAAAAgAIADD/////AAwAQAAB/////wAAAAEAAQAAAAAAAAAA</Data>
-										</Variant>
-									</Property>
-								</Properties>
-								<Errors />
-								<Section Name="Bank 0" TypeGUID="09713285-c596-431e-bd16-d6aa13349e66">
+								<Section Name="Slot 1 (SLSC-12201 DIO)" TypeGUID="c474772f-1eb5-4c79-98d9-8846819e1c09">
+									<Description />
+									<Properties>
+										<Property Name="CD Status">
+											<U32>1</U32>
+										</Property>
+										<Property Name="Driver VI Exec Mode">
+											<U32>1</U32>
+										</Property>
+										<Property Name="Driver VI Path_0">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC-12201 DIO\Linux_x64\SLSC-12201 DIO Engine Linux64.llb\RT Driver VI.vi">
+												<Version>1.0.3</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-12201 DIO\SLSC-12201 DIO Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC-12201 DIO\Linux_32_ARM\SLSC-12201 DIO Engine LinuxARM.llb\RT Driver VI.vi">
+												<Version>1.0.3</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-12201 DIO\SLSC-12201 DIO Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC-12201 DIO\Pharlap\SLSC-12201 DIO Engine Pharlap.llb\RT Driver VI.vi">
+												<Version>1.0.3</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-12201 DIO\SLSC-12201 DIO Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC-12201 DIO\SLSC-12201 DIO Engine Windows.llb\RT Driver VI.vi">
+												<Version>1.0.3</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\SLSC Plugins\Modules\SLSC-12201 DIO\SLSC-12201 DIO Engine Windows.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Windows</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Version">
+											<String>1.0.3</String>
+										</Property>
+										<Property Name="user.CD.ModuleName">
+											<BinaryString>U0xTQy0xMjIwMQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.productNumber">
+											<U32>4098</U32>
+										</Property>
+										<Property Name="user.CD.vendorNumber">
+											<U32>4243</U32>
+										</Property>
+										<Property Name="user.CD.capsVersion">
+											<BinaryString>MS4wLjA=</BinaryString>
+										</Property>
+										<Property Name="user.CD.Slot #">
+											<I32>1</I32>
+										</Property>
+										<Property Name="user.CD.Page Configuration Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAATRcAgAAAAAABAAQAAAABAAAAAAABAAAADVByb3BlcnR5TmFtZXMXAIAAAAAAAgAIADD/////AAwAQAAB/////wAAAAEAAQAAAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="Bank 0" TypeGUID="09713285-c596-431e-bd16-d6aa13349e66">
+										<Description />
+										<Properties />
+										<Errors />
+										<Section Name="Port 0" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
+											<Description />
+											<Properties />
+											<Errors />
+											<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line0.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line0.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line1.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line1.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line2.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line2.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line3.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line3.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line4.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line4.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line5.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line5.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line6.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line6.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port0/line7.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port0/line7.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+										</Section>
+										<Section Name="Port 1" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
+											<Description />
+											<Properties />
+											<Errors />
+											<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line0.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line0.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line1.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line1.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line2.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line2.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line3.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line3.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line4.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line4.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line5.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line5.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line6.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line6.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port1/line7.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port1/line7.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+										</Section>
+										<Channel Name="Select Vsup" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>I32.bank0.NI.VsupSelect</String>
+												</Property>
+												<Property Name="Value Table">
+													<Dictionary>
+														<Elem Key="Vsup_Off">
+															<Double>0</Double>
+														</Elem>
+														<Elem Key="Vsup_0">
+															<Double>1</Double>
+														</Elem>
+														<Elem Key="Vsup_1">
+															<Double>2</Double>
+														</Elem>
+													</Dictionary>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Enable 5V Range" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>Bool.bank0.NI.RangeEnable5V</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="5V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>DBL.bank0.NI.InputThreshold5V</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="33V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>DBL.bank0.NI.InputThreshold33V</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>4</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Enable Pull-up Resistors" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>Bool.bank0.NI.PullupEnable</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Section Name="Bank 1" TypeGUID="09713285-c596-431e-bd16-d6aa13349e66">
+										<Description />
+										<Properties />
+										<Errors />
+										<Section Name="Port 2" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
+											<Description />
+											<Properties />
+											<Errors />
+											<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line0.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line0.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line1.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line1.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line2.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line2.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line3.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line3.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line4.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line4.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line5.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line5.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line6.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line6.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port2/line7.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port2/line7.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>0</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+										</Section>
+										<Section Name="Port 3" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
+											<Description />
+											<Properties />
+											<Errors />
+											<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line0.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line0.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line1.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line1.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line2.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line2.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line3.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line3.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line4.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line4.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line5.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line5.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line6.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line6.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+											<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
+												<Description />
+												<Properties />
+												<Errors />
+												<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>Bool.port3/line7.NI.line.Enable</String>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>1</Elem>
+													</DefaultValue>
+												</Channel>
+												<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+													<Description />
+													<Properties>
+														<Property Name="user.CD.SLSCChannelPath">
+															<String>I32.port3/line7.NI.line.Direction</String>
+														</Property>
+														<Property Name="Value Table">
+															<Dictionary>
+																<Elem Key="Input">
+																	<Double>0</Double>
+																</Elem>
+																<Elem Key="Output Source">
+																	<Double>1</Double>
+																</Elem>
+																<Elem Key="Output Sink">
+																	<Double>2</Double>
+																</Elem>
+																<Elem Key="Output Push-pull">
+																	<Double>3</Double>
+																</Elem>
+															</Dictionary>
+														</Property>
+													</Properties>
+													<Errors />
+													<DefaultValue>
+														<Elem>3</Elem>
+													</DefaultValue>
+												</Channel>
+											</Section>
+										</Section>
+										<Channel Name="Select Vsup" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>I32.bank1.NI.VsupSelect</String>
+												</Property>
+												<Property Name="Value Table">
+													<Dictionary>
+														<Elem Key="Vsup_Off">
+															<Double>0</Double>
+														</Elem>
+														<Elem Key="Vsup_0">
+															<Double>1</Double>
+														</Elem>
+														<Elem Key="Vsup_1">
+															<Double>2</Double>
+														</Elem>
+													</Dictionary>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Enable 5V Range" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>Bool.bank1.NI.RangeEnable5V</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="5V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>DBL.bank1.NI.InputThreshold5V</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="33V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>DBL.bank1.NI.InputThreshold33V</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>4</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Enable Pull-up Resistors" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<String>Bool.bank1.NI.PullupEnable</String>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Section Name="Commands" TypeGUID="5ef2e5ef-6c3e-41ce-8bf3-8b9cdcedadff">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Update Channel Configuration" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Q29tbWFuZC4uTkkuVXBkYXRlQ2hhbm5lbENvbmZpZ3VyYXRpb24=</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Acknowledge 24V Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Q29tbWFuZC4uTkkuQWNrbm93bGVkZ2UyNFZQb3dlckZhaWxlZA==</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Update Test Mode" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Q29tbWFuZC4uTkkuVXBkYXRlVGVzdE1vZGU=</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Acknowledge Vsup Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Q29tbWFuZC4uTkkuQWNrbm93bGVkZ2VWc3VwUG93ZXJGYWlsZWQ=</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Section Name="Diagnostics" TypeGUID="1b9978d0-bb72-4eda-a9bc-ebfaab5f75ec">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="SLSC Mod Update Rate" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>U3RhdHVzLlVwZGF0ZVJhdGU=</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>500</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="SLSC Mod Loop Rate" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>U3RhdHVzLlNsb3RMb29wUmF0ZQ==</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>500</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="SLSC Mod Error Number" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>U3RhdHVzLlNMU0NfU2xvdF9FcnJvcl9OdW1iZXI=</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Vsup 0 Power Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8wUG93ZXJGYWlsZWQ=</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Vsup 0 Power Good" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8wUG93ZXJHb29k</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Vsup 1 Power Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8xUG93ZXJGYWlsZWQ=</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Vsup 1 Power Good" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="user.CD.SLSCChannelPath">
+													<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8xUG93ZXJHb29k</BinaryString>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="Slot 2 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
 									<Description />
 									<Properties />
 									<Errors />
-									<Section Name="Port 0" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
-										<Description />
+								</Section>
+								<Section Name="Slot 3 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 4 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 5 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 6 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 7 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 8 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 9 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 10 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 11 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 12 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="Channels" TypeGUID="fa98037a-a524-4a77-b7d2-13997631fa25">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="BatteryVoltageSensor" TypeGUID="96faf7a1-7cab-4db2-971e-68b73536c883">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="SensorReading" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The current voltage of the battery in unit voltage.</Description>
 										<Properties />
 										<Errors />
-										<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line0.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line0.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line1.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line1.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line2.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line2.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line3.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line3.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line4.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line4.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line5.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line5.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line6.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line6.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port0/line7.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port0/line7.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-									</Section>
-									<Section Name="Port 1" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
-										<Description />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="SensorNominal" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The nomial voltage of the battery in unit voltage.</Description>
 										<Properties />
 										<Errors />
-										<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line0.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line0.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line1.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line1.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line2.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line2.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line3.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line3.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line4.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line4.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line5.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line5.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line6.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line6.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port1/line7.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port1/line7.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-									</Section>
-									<Channel Name="Select Vsup" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
+										<DefaultValue>
+											<Elem>3.6</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="SensorLowerCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The lower battery threshold in unit voltage.</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>2.9</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="HealthState" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+										<Description>Health State of the chassis battery.
+
+-1: Unknown
+0: Normal
+1: OutOfSpec
+2: RiskOfDamage</Description>
 										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>I32.bank0.NI.VsupSelect</String>
-											</Property>
 											<Property Name="Value Table">
 												<Dictionary>
-													<Elem Key="Vsup_Off">
+													<Elem Key="Unknown">
+														<Double>-1</Double>
+													</Elem>
+													<Elem Key="Normal">
 														<Double>0</Double>
 													</Elem>
-													<Elem Key="Vsup_0">
+													<Elem Key="OutOfSpec">
 														<Double>1</Double>
 													</Elem>
-													<Elem Key="Vsup_1">
+													<Elem Key="RiskOfDamage">
 														<Double>2</Double>
 													</Elem>
 												</Dictionary>
@@ -1252,807 +2149,58 @@
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>1</Elem>
+											<Elem>-1</Elem>
 										</DefaultValue>
 									</Channel>
-									<Channel Name="Enable 5V Range" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>Bool.bank0.NI.RangeEnable5V</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>1</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="5V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>DBL.bank0.NI.InputThreshold5V</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>4</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="33V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>DBL.bank0.NI.InputThreshold33V</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>4</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Enable Pull-up Resistors" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>Bool.bank0.NI.PullupEnable</String>
-											</Property>
-										</Properties>
+								</Section>
+								<Section Name="FanVoltageSensor" TypeGUID="96faf7a1-7cab-4db2-971e-68b73536c883">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="SensorReading" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The current voltage of the fan in unit voltage.</Description>
+										<Properties />
 										<Errors />
 										<DefaultValue>
 											<Elem>0</Elem>
 										</DefaultValue>
 									</Channel>
-								</Section>
-								<Section Name="Bank 1" TypeGUID="09713285-c596-431e-bd16-d6aa13349e66">
-									<Description />
-									<Properties />
-									<Errors />
-									<Section Name="Port 2" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
-										<Description />
+									<Channel Name="SensorLowerCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The fan's lower threshold of the operating voltage in unit voltage.</Description>
 										<Properties />
 										<Errors />
-										<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line0.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line0.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line1.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line1.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line2.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line2.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line3.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line3.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line4.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line4.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line5.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line5.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line6.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line6.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port2/line7.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port2/line7.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-									</Section>
-									<Section Name="Port 3" TypeGUID="b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1">
-										<Description />
+										<DefaultValue>
+											<Elem>0.08</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="SensorUpperCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The fan's upper threshold of the operating voltage in unit voltage.</Description>
 										<Properties />
 										<Errors />
-										<Section Name="Line 0" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line0.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line0.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 1" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line1.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line1.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 2" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line2.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line2.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 3" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line3.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line3.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 4" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line4.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line4.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 5" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line5.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line5.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 6" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line6.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line6.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Section Name="Line 7" TypeGUID="661c9457-bca1-4357-942d-be39bffabc16">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Enable" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>Bool.port3/line7.NI.line.Enable</String>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>1</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.SLSCChannelPath">
-														<String>I32.port3/line7.NI.line.Direction</String>
-													</Property>
-													<Property Name="Value Table">
-														<Dictionary>
-															<Elem Key="Input">
-																<Double>0</Double>
-															</Elem>
-															<Elem Key="Output Source">
-																<Double>1</Double>
-															</Elem>
-															<Elem Key="Output Sink">
-																<Double>2</Double>
-															</Elem>
-															<Elem Key="Output Push-pull">
-																<Double>3</Double>
-															</Elem>
-														</Dictionary>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>3</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-									</Section>
-									<Channel Name="Select Vsup" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
+										<DefaultValue>
+											<Elem>0.12</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="HealthState" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+										<Description>Health State of the chassis fan.
+
+-1: Unknown
+0: Normal
+1: OutOfSpec
+2: RiskOfDamage</Description>
 										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>I32.bank1.NI.VsupSelect</String>
-											</Property>
 											<Property Name="Value Table">
 												<Dictionary>
-													<Elem Key="Vsup_Off">
+													<Elem Key="Unknown">
+														<Double>-1</Double>
+													</Elem>
+													<Elem Key="Normal">
 														<Double>0</Double>
 													</Elem>
-													<Elem Key="Vsup_0">
+													<Elem Key="OutOfSpec">
 														<Double>1</Double>
 													</Elem>
-													<Elem Key="Vsup_1">
+													<Elem Key="RiskOfDamage">
 														<Double>2</Double>
 													</Elem>
 												</Dictionary>
@@ -2060,203 +2208,18 @@
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>1</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Enable 5V Range" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>Bool.bank1.NI.RangeEnable5V</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>1</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="5V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>DBL.bank1.NI.InputThreshold5V</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>4</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="33V Input Threshold" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>DBL.bank1.NI.InputThreshold33V</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>4</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Enable Pull-up Resistors" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<String>Bool.bank1.NI.PullupEnable</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
-								<Section Name="Commands" TypeGUID="5ef2e5ef-6c3e-41ce-8bf3-8b9cdcedadff">
-									<Description />
-									<Properties />
-									<Errors />
-									<Channel Name="Update Channel Configuration" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Q29tbWFuZC4uTkkuVXBkYXRlQ2hhbm5lbENvbmZpZ3VyYXRpb24=</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Acknowledge 24V Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Q29tbWFuZC4uTkkuQWNrbm93bGVkZ2UyNFZQb3dlckZhaWxlZA==</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Update Test Mode" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Q29tbWFuZC4uTkkuVXBkYXRlVGVzdE1vZGU=</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Acknowledge Vsup Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Q29tbWFuZC4uTkkuQWNrbm93bGVkZ2VWc3VwUG93ZXJGYWlsZWQ=</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
-								<Section Name="Diagnostics" TypeGUID="1b9978d0-bb72-4eda-a9bc-ebfaab5f75ec">
-									<Description />
-									<Properties />
-									<Errors />
-									<Channel Name="SLSC Mod Update Rate" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>U3RhdHVzLlVwZGF0ZVJhdGU=</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>500</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="SLSC Mod Loop Rate" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>U3RhdHVzLlNsb3RMb29wUmF0ZQ==</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>500</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="SLSC Mod Error Number" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>U3RhdHVzLlNMU0NfU2xvdF9FcnJvcl9OdW1iZXI=</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Vsup 0 Power Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8wUG93ZXJGYWlsZWQ=</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Vsup 0 Power Good" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8wUG93ZXJHb29k</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>1</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Vsup 1 Power Fail" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8xUG93ZXJGYWlsZWQ=</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Vsup 1 Power Good" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.SLSCChannelPath">
-												<BinaryString>Qm9vbC4uTkkuU3RhdHVzVnN1cF8xUG93ZXJHb29k</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>1</Elem>
+											<Elem>-1</Elem>
 										</DefaultValue>
 									</Channel>
 								</Section>
 							</Section>
 						</Section>
 					</Section>
+				</Section>
+				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
+					<Description />
+					<Properties />
+					<Errors />
 				</Section>
 				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
 					<Description />
@@ -3256,7 +3219,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Referenced Channel">
-						<DependentNode Path="Targets/Controller/Custom Devices/SLSC/NI SLSC-12001/Slot 1 (SLSC-12201 DIO)/Bank 0/Port 0/Line 0/Enable" />
+						<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC-12201 DIO)/Bank 0/Port 0/Line 0/Enable" />
 					</Property>
 				</Properties>
 				<Errors />
