@@ -6,7 +6,7 @@ The SLSC-12201 DIO Plugin Custom Device allows a enables access to properties, c
 
 The SLSC-12201 DIO Plugin Custom Device is added to VeriStand as a module in an SLSC Chassis under the desired controller. An example of this location is _Targets » Controller » Hardware » SLSC » SLSC Chassis » Modules_, as shown below.
 
-![Add Module to System Definition](Support\Add%20Module%20to%20System%20Definition.png)
+![Add Module to System Definition](Support/Add%20Module%20to%20System%20Definition.png)
 
 Once the module has been added, configurations for all board **Bank** and **Line** parameters are available. These properties are applied on deployment of the system definition.
 
