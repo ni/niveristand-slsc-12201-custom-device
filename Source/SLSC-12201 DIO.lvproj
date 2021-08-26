@@ -110,7 +110,6 @@
 		<Item Name="SLSC-12201 DIO Shared.lvlib" Type="Library" URL="../Shared/SLSC-12201 DIO Shared.lvlib"/>
 		<Item Name="SLSC-12201 DIO System Explorer.lvlib" Type="Library" URL="../System Explorer/SLSC-12201 DIO System Explorer.lvlib"/>
 		<Item Name="SLSC Module Addon.chm" Type="Document" URL="../Help/SLSC Module Addon.chm"/>
-		<Item Name="Custom Device SLSC-12201 DIO.xml" Type="Document" URL="../Custom Device SLSC-12201 DIO.xml"/>
 		<Item Name="SLSC Module SLSC-12201 DIO.xml" Type="Document" URL="../SLSC Module SLSC-12201 DIO.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -623,17 +622,14 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SLSC Module Addon.chm</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Custom Device SLSC-12201 DIO.xml</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SLSC Module SLSC-12201 DIO.xml</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SLSC Module SLSC-12201 DIO.xml</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Inline Async APIs</Property>
-				<Property Name="Source[8].newName" Type="Str">SLSC_12201_</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Inline Async APIs</Property>
+				<Property Name="Source[7].newName" Type="Str">SLSC_12201_</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
