@@ -5,15 +5,6 @@ archive_location = '\\nirvana\Measurements\VeriStandAddons\slsc_12201_custom_dev
 [projects.cd]
 path = 'Source\SLSC-12201 DIO.lvproj'
 
-[[codegen.steps]]
-name = 'Set Conditional Symbol'
-type = 'lvSetConditionalSymbol'
-project = '{cd}'
-symbol = 'CD_Version'
-true_value = '2015_2016'
-false_value = 'Default'
-condition = 'lvVersion < 2017'
-
 [[build.steps]]
 name = 'Build SLSC-12201 DIO Custom Device'
 type = 'lvBuildAll'
@@ -23,8 +14,6 @@ project = '{cd}'
 type = 'nipkg'
 payload_dir = 'Built'
 install_destination = 'documents\\National Instruments\\NI VeriStand {veristand_version}\\SLSC Plugins\\Modules'
-2015_install_destination = 'documents\\National Instruments\\NI VeriStand {veristand_version}\\Custom Devices\\SLSC Plug-ins'
-2016_install_destination = 'documents\\National Instruments\\NI VeriStand {veristand_version}\\Custom Devices\\SLSC Plug-ins'
 
 [notification]
 type = 'teams'
