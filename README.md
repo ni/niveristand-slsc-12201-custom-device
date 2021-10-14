@@ -4,11 +4,11 @@ The **SLSC-12201 DIO Plugin Custom Device** integrates the SLSC-12201 33 V Digit
 
 ## LabVIEW Version
 
-LabVIEW 2015
+LabVIEW 2019
 
 ## Dependencies
 
-- NI-SLSC Driver 17.0+
+- NI-SLSC
 - [NI VeriStand Addon Inline Async API](https://github.com/ni/niveristand-custom-device-inline-async-api)
 
 ## Git History & Rebasing Policy
