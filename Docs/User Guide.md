@@ -1,8 +1,4 @@
-## Overview
-
-The SLSC-12201 DIO Plugin Custom Device allows a enables access to properties, commands, and physical channels of the [SLSC-12201 33 V Digital I/O Conditioning Module](https://www.ni.com/en-ph/support/model.slsc-12201.html) within VeriStand.
-
-## Usage
+## Using the SLSC-12201 DIO Plugin Custom Device
 
 The SLSC-12201 DIO Plugin Custom Device is added to VeriStand as a module in an SLSC Chassis under the desired controller. An example of this location is _Targets » Controller » Hardware » SLSC » SLSC Chassis » Modules_, as shown below.
 
