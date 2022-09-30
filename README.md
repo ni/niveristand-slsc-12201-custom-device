@@ -4,7 +4,7 @@ The **SLSC-12201 DIO Plugin Custom Device** enables access to properties, comman
 
 ## Using the Custom Device
 
-- Download the latest release package from the [Releases page](https://github.com/ni/niveristand-slsc-12201-custom-device/releases).
+- Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-slsc-12201-custom-device/releases).
 - See the [User Guide](Docs/User%20Guide.md) for a walkthrough of using the Custom Device.
 
 ## LabVIEW Source Code Version
