@@ -26,14 +26,9 @@ stages:
 
       buildSteps:
         - projectLocation: 'Source\SLSC-12201 DIO.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration Release'
-
-        - projectLocation: 'Source\SLSC-12201 DIO.lvproj'
-          buildOperation: 'ExecuteBuildSpecAllTargets'
+          buildOperation: 'ExecuteAllBuildSpecs'
           target: 'All'
-          buildSpec: 'Engine Release'
+          buildSpec: 'All'
 
       releaseVersion: '23.3.0'
       buildOutputLocation: 'Built'
@@ -42,5 +37,5 @@ stages:
       packages:
         - controlFileName: 'control'
           payloadMaps:
-            - installLocation: 'documents\\National Instruments\\NI VeriStand {veristand_version}\\SLSC Plugins\\Modules'
+            - installLocation: 'documents\\National Instruments\\NI VeriStand $(lvVersion)\\SLSC Plugins\\Modules'
               payloadLocation: 'Built'
