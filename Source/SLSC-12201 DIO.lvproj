@@ -95,6 +95,9 @@
 				<Item Name="SLSC_Module.png" Type="Document" URL="../Glyphs/SLSC_Module.png"/>
 				<Item Name="SLSC_Module_disable.png" Type="Document" URL="../Glyphs/SLSC_Module_disable.png"/>
 			</Item>
+			<Item Name="Help" Type="Folder" URL="../Help">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Unit" Type="Folder">
@@ -118,7 +121,6 @@
 		<Item Name="SLSC-12201 DIO Engine.lvlib" Type="Library" URL="../Engine/SLSC-12201 DIO Engine.lvlib"/>
 		<Item Name="SLSC-12201 DIO Shared.lvlib" Type="Library" URL="../Shared/SLSC-12201 DIO Shared.lvlib"/>
 		<Item Name="SLSC-12201 DIO System Explorer.lvlib" Type="Library" URL="../System Explorer/SLSC-12201 DIO System Explorer.lvlib"/>
-		<Item Name="SLSC Module Addon.chm" Type="Document" URL="../Help/SLSC Module Addon.chm"/>
 		<Item Name="SLSC Module SLSC-12201 DIO.xml" Type="Document" URL="../SLSC Module SLSC-12201 DIO.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -541,9 +543,6 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -571,8 +570,11 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">Help</Property>
 				<Property Name="Destination[4].path" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
-				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3FEBE795-C4D9-4546-BE4A-242662DECD23}</Property>
+				<Property Name="Destination[5].destName" Type="Str">Page Help</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built/NI_AB_PROJECTNAME/Page Help</Property>
+				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">6</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3736577E-2F19-4A70-A43E-6F08E7C0211A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -629,16 +631,20 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support Files/Glyphs</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SLSC Module Addon.chm</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SLSC Module SLSC-12201 DIO.xml</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SLSC Module SLSC-12201 DIO.xml</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Inline Async APIs</Property>
+				<Property Name="Source[6].newName" Type="Str">SLSC_12201_</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Inline Async APIs</Property>
-				<Property Name="Source[7].newName" Type="Str">SLSC_12201_</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Support Files/Help</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
