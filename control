@@ -13,3 +13,13 @@ Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI SLSC-12201 DIO for VeriStand {veristand_version}
 Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
+Description-zh-CN: 为NI VeriStand {veristand_version}提供NI SLSC-12201 DIO自定义设备的支持
+XB-DisplayName-zh-CN: NI SLSC-12201 DIO for VeriStand {veristand_version}
+Description-de: Stellt die Unterstützung für benutzerdefinierte NI SLSC-12201 DIO Geräte für NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: NI SLSC-12201 DIO für VeriStand {veristand_version}
+Description-fr: Fournit le support pour le périphérique personnalisé NI SLSC-12201 DIO pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI SLSC-12201 DIO for VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用のNI SLSC-12201 DIOカスタムデバイスのサポートを提供します。
+XB-DisplayName-ja: NI SLSC Switch - VeriStand {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 NI SLSC-12201 DIO Custom Device의 지원을 제공합니다.
+XB-DisplayName-ko: NI SLSC-12201 DIO - VeriStand {veristand_version} 지원
