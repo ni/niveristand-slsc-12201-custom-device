@@ -434,7 +434,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME/SLSC-12201 DIO Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1E435D91-0908-4202-B962-F0CC334D1991}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{248A51F4-A93F-4C5E-B6F8-F2F1C6EEC3A2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SLSC-12201 DIO System Explorer.lvlib/System Explorer/Dynamically Called/Actions/ActionVIOnCompile.vi</Property>
@@ -460,7 +460,16 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Inline Async APIs</Property>
 				<Property Name="Source[3].newName" Type="Str">SLSC_12201_</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SLSC-12201 DIO System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
