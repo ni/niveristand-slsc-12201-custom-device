@@ -40,3 +40,23 @@ stages:
         - controlFileName: 'control'
           payloadMaps:
             - installLocation: 'documents\\National Instruments\\NI VeriStand $(lvVersion)\\SLSC Plugins\\Modules'
+
+  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2026'
+          bitness: '64bit'
+
+      buildSteps:
+        - id: 'slsc_12201_dio_configuration'
+          projectLocation: 'Source/SLSC-12201 DIO.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration(Linux) Release'
+      
+      releaseVersion: '26.5.0'
+      branch: 'main'
+      debugBuild: 'no'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_12201_custom_device'
+      repoName: 'niveristand-slsc-12201-custom-device'
