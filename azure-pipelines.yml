@@ -26,9 +26,14 @@ stages:
 
       buildSteps:
         - projectLocation: 'Source\SLSC-12201 DIO.lvproj'
-          buildOperation: 'ExecuteAllBuildSpecs'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration Release'
+
+        - projectLocation: 'Source\SLSC-12201 DIO.lvproj'
+          buildOperation: 'ExecuteBuildSpecAllTargets'
           target: 'All'
-          buildSpec: 'All'
+          buildSpec: 'Engine Release'
 
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
